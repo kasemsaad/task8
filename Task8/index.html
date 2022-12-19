@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>task8</title>
+</head>
+<body>
+         <!-- start task1 -->
+    <div class="container text-center  shadow py-3">
+    <input id="grad" class="border shadow" type="number" placeholder="Enter grade %" >
+    <input  class="btn btn-info" type="submit" value ="submit" onclick="return test1()" >
+    <h2 id="demo1"></h2>
+</div>
+     <!-- end task1 -->
+          <!-- start task2 -->
+     <div class="container text-center  shadow py-3">
+        <h2>Calculate</h2>
+     <input id="num1"  class="border shadow" type="number" placeholder="Enter Number" > 
+     <select  class="btn btn-info" id="oprators">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+     </select>
+    <input id="num2"  class="border shadow" type="number" placeholder="Enter Number" >
+    <button class="btn btn-info" onclick="return test2()">=</button>
+    <h2 id="result" ></h2>
+</div>
+     <!-- end task2 -->
+
+     <!-- start task3 -->
+     <div class="container py-4  shadow">
+        <div id="demo" class="row">
+        </div>
+    </div>
+     <!-- end task3 -->
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
