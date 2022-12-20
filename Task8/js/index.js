@@ -58,6 +58,8 @@ for(var i=0;i<10;i++){
     <div class="box w-50  shadow  text-center flex-column ">
         <img class="w-100" src="./img/ab3.jfif" alt="">
         <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam perferendis reprehenderit amet.</div>
+                    <button class="btn btn-info">BUTTON</button>
+
     </div>
 </div>
     `
